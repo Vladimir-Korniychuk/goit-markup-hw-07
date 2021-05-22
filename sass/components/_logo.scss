@@ -1,0 +1,23 @@
+/*LOGO*/
+%logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: var(--logo-font);
+  }
+  .header__logo {
+    @extend %logo;
+    margin-right: 93px;
+    color: var(--headers-nav-color);
+  }
+  .footer__logo {
+    @extend %logo;
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+    color: var(--hero-footer-text-color);
+  }
+  .header__logo--accent,
+    .footer__logo--accent {
+    color: var(--accent-logo-hover-color);
+  }
